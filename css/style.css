@@ -10,6 +10,14 @@ COLORES:
 #EC7357
 #754F44
 
+
+
+#363020
+#605C4E
+#A49966
+#C7C7A6
+#EAFFDA
+
 */
 
 *{
@@ -21,7 +29,6 @@ COLORES:
     text-decoration: none;
     background-color: #E1CE7A;
 }
-
 
 
 li  {
@@ -49,8 +56,10 @@ h4{
 
 h5{
     padding-left: 50%;
+    padding-top: 20px;
     text-decoration: underline;
 } 
+
 
 
 img{
@@ -69,8 +78,7 @@ footer{
     padding: 30px;
     text-align: center;
     border: black 1px solid;
-    border-radius: 10px;    
-    
+    border-radius: 10px;       
 } 
 
 .redes {
@@ -83,10 +91,10 @@ footer{
     padding-top: 45px;
 }
 
-
 .nav-deco{
     padding: 0px;
 }
+
 
 .busc-prod{
     margin-left: 50px;
@@ -98,6 +106,7 @@ footer{
     flex-wrap: wrap;
 }
 
+/* CARDS PRODUCTOS */
 .card{
     margin: 15px;
     border-color:#754F44;
@@ -119,6 +128,13 @@ footer{
     background-color: #754F44;
     border-color: #754F44;
 }
+.btn-primary:hover{
+    background-color: #A49966;
+    border-color: #A49966;
+}
+/* ------------------------------------ */
+
+
 
 .nosotros_team{
     display: flex;
@@ -129,6 +145,14 @@ footer{
     width: 350px;
     height: 350px;
     padding-left: 30px;
+    padding-top: 50px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.img_team:hover{
+    transform: scale(1.1,1.1);
+    transition: .3s;
 }
 
 .txt-nos{
