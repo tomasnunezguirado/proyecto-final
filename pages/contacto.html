@@ -48,17 +48,25 @@
         <h2>CONTACTO</h2>
         <form action="#">
             <div class="estiloContactos">
-                <input type="text" placeholder="Nombre y apellido" name="Nombre">
+                <div>
+                  <h8>Nombre y apellido/s</h8>
+                  <br>
+                  <input type="text" placeholder="Nombre y apellido" name="Nombre">
+                </div>
 
                 <br><br>
-
-                <label for="edad">EDAD</label>
-                <input type="date" name="fecha">
+                <div>
+                  <label for="edad">Edad</label>
+                  <br>
+                  <input type="date" name="fecha">
+                </div>
 
                 <br><br>
-
-                <textarea name="comentario" cols="25" rows="5"></textarea>
-                <input type="submit" name="enviar">
+                  <h8>Asunto</h8>
+                  <br>
+                  <textarea name="comentario" cols="50" rows="10" maxlength="500" placeholder="max 500 caracteres"></textarea>
+                  <br>
+                  <input class="bot-env" type="submit" name="enviar">
             </div>
         </form>
     </main>
