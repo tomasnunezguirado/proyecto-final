@@ -181,6 +181,23 @@ footer{
 
 
 
+  /* Sucursales */
+.sucursales{
+    display: flex;
+    flex-direction: column;
+}
+.suc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mapita{
+    margin-left: 30px;
+}
+.nomsuc{
+    text-decoration: underline black 1px;
+}
+
 
   /* Carrusel (talles) */
 
@@ -292,8 +309,18 @@ textarea:focus{
         margin-left: 50px;
         width: 80%;
     }
+    .sucursales{
+        font-size:xx-small;
+    }
 }
 
+@media(max-width:634){
+    .suc{
+        height: 50%;
+        width: 50%;
+    }
+
+}
 
 @media (max-width:600px){
     .txt-nos{
